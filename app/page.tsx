@@ -165,7 +165,7 @@ export default function VercelSDRPresentation() {
                 },
                 {
                   image: "/images/data-analyst.jpeg",
-                  title: "Senior Data Analyst",
+                  title: "Data Analyst",
                   subtitle: "Credit One Bank • $2.8M Impact",
                   desc: "Drove 15% churn reduction via predictive modeling; presented ROI analysis to C-suite executives",
                   color: "from-purple-500 to-pink-500",
