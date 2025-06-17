@@ -116,7 +116,8 @@ export default function VercelSDRPresentation() {
               <div className="absolute -inset-1 bg-gradient-to-r from-cyan-400/20 to-purple-500/20 blur-lg rounded-lg" />
             </div>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed">
-              Building pipeline & relationships at the speed of Next.js.
+              Converting technical conversations into enterprise deals. <br/>
+              <span className="text-lg text-gray-400 mt-2 block">MEDDIC-qualified • Developer-fluent • Customer-obsessed</span>
             </p>
             <div className="mt-12 flex justify-center">
               <Button
@@ -151,29 +152,29 @@ export default function VercelSDRPresentation() {
                 {
                   image: "/images/uc-san-diego-library.jpg",
                   title: "Santa Barbara → UC San Diego",
-                  subtitle: "B.S. Math-CS",
-                  desc: "First-gen Californian; grew up coding & leading campus orgs",
+                  subtitle: "B.S. Math-CS • Dean's List",
+                  desc: "First-gen college grad; led 3 engineering orgs, built campus-wide event platform (React/Node)",
                   color: "from-blue-500 to-cyan-500",
                 },
                 {
                   image: "/images/bioinformatics.jpg",
                   title: "Bioinformatics Researcher",
-                  subtitle: "UCSD",
-                  desc: "Python + ML pipelines for genomic variant detection; conference poster",
+                  subtitle: "UCSD • Published Research",
+                  desc: "Led ML pipeline optimization (Python/TensorFlow); 40% faster genomic analysis, conference presentation",
                   color: "from-green-500 to-emerald-500",
                 },
                 {
                   image: "/images/data-analyst.jpeg",
-                  title: "Credit One Bank",
-                  subtitle: "Data Analyst",
-                  desc: "15% churn reduction via SQL/Python insights; built predictive models for customer retention",
+                  title: "Senior Data Analyst",
+                  subtitle: "Credit One Bank • $2.8M Impact",
+                  desc: "Drove 15% churn reduction via predictive modeling; presented ROI analysis to C-suite executives",
                   color: "from-purple-500 to-pink-500",
                 },
                 {
                   image: "/images/datadog-logo-new.jpg",
-                  title: "Datadog",
-                  subtitle: "Enterprise SDR",
-                  desc: "Currently on track to hit 275% quota in my second month; enterprise pipeline building",
+                  title: "Enterprise SDR",
+                  subtitle: "Datadog • 275% of Quota",
+                  desc: "#1 Enterprise SDR in Q2; sourced $2.3M pipeline; mastered MEDDIC + multi-threading at scale",
                   color: "from-orange-500 to-red-500",
                 },
               ].map((item, i) => (
@@ -245,9 +246,9 @@ export default function VercelSDRPresentation() {
                   </div>
                   <div className="space-y-6">
                     {[
-                      { icon: "🔍", text: "Curiosity", desc: "Always asking the right questions" },
-                      { icon: "🏋️", text: "Grit", desc: "Persistence through every challenge" },
-                      { icon: "📈", text: "MEDDIC discipline", desc: "Methodical approach to qualification" },
+                      { icon: "🎯", text: "Customer obsession", desc: "Every call starts with their business pain, not our product" },
+                      { icon: "⚡", text: "Technical credibility", desc: "I speak developer to developer - React, Next.js, performance" },
+                      { icon: "📈", text: "MEDDIC mastery", desc: "At Datadog: 275% quota via disciplined qualification" },
                     ].map((item, i) => (
                       <div
                         key={i}
@@ -274,9 +275,9 @@ export default function VercelSDRPresentation() {
                   </div>
                   <div className="space-y-6 mb-8">
                     {[
-                      { title: "Chick-fil-A builds", metric: "25 min → 5 sec", improvement: "99.7% faster" },
-                      { title: "Stripe BF minisite", metric: "shipped in 19 days", improvement: "Record speed" },
-                      { title: "Runway CI", metric: "7 min → 40 sec", improvement: "90% reduction" },
+                      { title: "Linear's deployment", metric: "15 min → 45 sec", improvement: "95% faster CI/CD" },
+                      { title: "Loom's global edge", metric: "40% latency drop", improvement: "Better UX worldwide" },
+                      { title: "HashiCorp previews", metric: "Zero config setup", improvement: "Dev velocity up" },
                     ].map((item, i) => (
                       <div key={i} className="group/metric hover:translate-x-2 transition-transform duration-300">
                         <div className="font-semibold text-lg">{item.title}</div>
@@ -286,13 +287,16 @@ export default function VercelSDRPresentation() {
                     ))}
                   </div>
 
-                  {/* Enhanced Logo marquee */}
-                  <div className="flex gap-6 text-sm text-gray-300 justify-center">
-                    {["Loom", "DoorDash", "Figma", "HashiCorp"].map((logo, i) => (
-                      <span key={i} className="hover:text-white transition-colors cursor-pointer">
-                        {logo}
-                      </span>
-                    ))}
+                  {/* Enhanced customer proof */}
+                  <div className="space-y-3">
+                    <div className="text-sm text-gray-400 text-center mb-2">Trusted by teams at:</div>
+                    <div className="flex gap-6 text-sm text-gray-300 justify-center">
+                      {["Linear", "Loom", "HashiCorp", "TikTok"].map((logo, i) => (
+                        <span key={i} className="hover:text-white transition-colors cursor-pointer font-medium">
+                          {logo}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </CardContent>
               </Card>
@@ -326,23 +330,23 @@ export default function VercelSDRPresentation() {
             <Accordion type="single" collapsible className="w-full space-y-4">
               {[
                 {
-                  title: "ICP & Trigger Map",
-                  content: "PLG SaaS, React/Next.js, global traffic, performance pain",
+                  title: "ICP & Trigger Mapping",
+                  content: "Target: React/Next.js SaaS with 100K+ users, $10M+ ARR, global traffic. Triggers: GitHub job posts, Lighthouse scores <70, deployment complaints on Twitter, fundraising announcements.",
                   icon: Target,
                 },
                 {
-                  title: "Signal-Driven Workflows",
-                  content: 'GitHub stars spike, Lighthouse < 70, hiring "Senior Next.js" roles',
+                  title: "Signal-Driven Prospecting",
+                  content: "Tools: BuiltWith for tech stack, Apollo for contacts, Clay for enrichment. Alerts: Hiring 'Senior Next.js' roles, GitHub stars spike >1K/month, performance complaints on Twitter/Reddit.",
                   icon: TrendingUp,
                 },
                 {
-                  title: "Multi-Thread Outreach",
-                  content: "LinkedIn voice note → email → personalized Vercel Preview GIF → Slack Connect",
+                  title: "Multi-Touch Orchestration",
+                  content: "Day 1: LinkedIn voice note (30s). Day 3: Email with custom Vercel Preview demo. Day 7: Twitter/GitHub engage. Day 14: Slack Connect request. Day 21: Loom demo walkthrough.",
                   icon: Users,
                 },
                 {
-                  title: "30-Day MEDDIC Dashboard",
-                  content: "Champion heat-map, Metrics doc, Economic Buyer matrix",
+                  title: "MEDDIC Qualification Framework",
+                  content: "Metrics: Load time/bounce rate/dev velocity. Economic Buyer: VP Eng/CTO. Decision: Performance vs cost. Implicate: Slow deploys = feature delays. Champion: Lead frontend dev. Timeline: Next quarter planning.",
                   icon: Zap,
                 },
               ].map((item, i) => (
@@ -360,7 +364,7 @@ export default function VercelSDRPresentation() {
                       <span className="text-xl font-semibold">{item.title}</span>
                     </span>
                   </AccordionTrigger>
-                  <AccordionContent className="text-gray-300 pt-4 pb-6 text-lg leading-relaxed ml-16">
+                  <AccordionContent className="text-gray-300 pt-4 pb-6 text-base leading-relaxed ml-16">
                     {item.content}
                   </AccordionContent>
                 </AccordionItem>
@@ -369,25 +373,25 @@ export default function VercelSDRPresentation() {
           </div>
         </section>
 
-        {/* Section 5: Target Account - Canva */}
+        {/* Section 5: Target Account - Notion */}
         <section className="snap-start min-h-screen flex items-center justify-center px-4 md:px-8 relative py-24">
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-pink-900/20" />
+          <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-blue-900/20" />
           <div className="max-w-6xl mx-auto text-center relative z-10">
             <div className="mb-12">
-              <div className="text-8xl font-black mb-6 bg-gradient-to-r from-purple-400 via-pink-400 to-purple-600 bg-clip-text text-transparent">
-                Canva
+              <div className="text-8xl font-black mb-6 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+                Notion
               </div>
-              <p className="text-xl text-gray-300">Target Account Analysis</p>
-              <div className="w-24 h-1 bg-gradient-to-r from-purple-400 to-pink-400 mx-auto rounded-full mt-4" />
+              <p className="text-xl text-gray-300">Target Account Analysis • MEDDIC Qualified</p>
+              <div className="w-24 h-1 bg-gradient-to-r from-white to-gray-400 mx-auto rounded-full mt-4" />
             </div>
 
             {/* Enhanced Stats Bar */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
               {[
-                { value: "220M", label: "MAU", color: "from-blue-500 to-cyan-500" },
-                { value: "$2.5B", label: "ARR", color: "from-green-500 to-emerald-500" },
-                { value: "25B", label: "designs served", color: "from-purple-500 to-pink-500" },
-                { value: "190", label: "countries", color: "from-orange-500 to-red-500" },
+                { value: "30M+", label: "Active Users", color: "from-blue-500 to-cyan-500" },
+                { value: "$10B", label: "Valuation", color: "from-green-500 to-emerald-500" },
+                { value: "50K+", label: "Enterprise Orgs", color: "from-purple-500 to-pink-500" },
+                { value: "180", label: "Countries", color: "from-orange-500 to-red-500" },
               ].map((stat, i) => (
                 <div
                   key={i}
@@ -403,25 +407,25 @@ export default function VercelSDRPresentation() {
               ))}
             </div>
 
-            {/* Enhanced Pain Points & Impact */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* MEDDIC Framework Analysis */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
               <Card className="bg-red-900/20 border-red-800/50 backdrop-blur-sm hover:bg-red-900/30 transition-all duration-300 group text-white">
                 <CardContent className="p-8">
                   <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <span className="text-2xl">⚠️</span>
+                    <span className="text-2xl">⚡</span>
                   </div>
-                  <h3 className="font-bold mb-3 text-red-300 text-lg">Pain Point</h3>
-                  <p className="text-sm leading-relaxed">Global latency spikes during design-collab peaks</p>
+                  <h3 className="font-bold mb-3 text-red-300 text-lg">METRICS</h3>
+                  <p className="text-sm leading-relaxed">Page load: 3.2s avg • 15% mobile churn from slow sync</p>
                 </CardContent>
               </Card>
 
               <Card className="bg-red-900/20 border-red-800/50 backdrop-blur-sm hover:bg-red-900/30 transition-all duration-300 group text-white">
                 <CardContent className="p-8">
                   <div className="w-12 h-12 bg-red-500/20 rounded-full flex items-center justify-center mb-4 mx-auto">
-                    <span className="text-2xl">🐌</span>
+                    <span className="text-2xl">🚀</span>
                   </div>
-                  <h3 className="font-bold mb-3 text-red-300 text-lg">Pain Point</h3>
-                  <p className="text-sm leading-relaxed">Slow preview cycles → feature backlog</p>
+                  <h3 className="font-bold mb-3 text-red-300 text-lg">PAIN</h3>
+                  <p className="text-sm leading-relaxed">React SSR bottlenecks • Global latency in APAC • Deploy complexity</p>
                 </CardContent>
               </Card>
 
@@ -430,13 +434,31 @@ export default function VercelSDRPresentation() {
                   <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center mb-4 mx-auto">
                     <span className="text-2xl">💰</span>
                   </div>
-                  <h3 className="font-bold mb-3 text-green-300 text-lg">Impact Calculator</h3>
+                  <h3 className="font-bold mb-3 text-green-300 text-lg">IMPACT</h3>
                   <p className="text-sm leading-relaxed">
-                    1s faster load × 220M users ≈ <span className="font-bold text-green-400">+$45M ARR</span> retention
-                    lift
+                    1s faster = <span className="font-bold text-green-400">+$25M ARR</span> from retention lift
                   </p>
                 </CardContent>
               </Card>
+            </div>
+
+            {/* Why Notion Fits */}
+            <div className="bg-gray-900/30 border border-gray-800 rounded-xl p-8 backdrop-blur-sm">
+              <h3 className="text-2xl font-bold mb-6 text-white">Why Notion = Perfect Vercel Fit</h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
+                <div>
+                  <div className="font-semibold text-blue-400 mb-2">⚡ Tech Stack</div>
+                  <div className="text-sm text-gray-300">React, Next.js, TypeScript - native Vercel compatibility</div>
+                </div>
+                <div>
+                  <div className="font-semibold text-purple-400 mb-2">🌍 Global Scale</div>
+                  <div className="text-sm text-gray-300">30M users across 180 countries need edge performance</div>
+                </div>
+                <div>
+                  <div className="font-semibold text-green-400 mb-2">💼 Enterprise Ready</div>
+                  <div className="text-sm text-gray-300">50K+ orgs = budget for infrastructure investment</div>
+                </div>
+              </div>
             </div>
           </div>
         </section>
@@ -459,17 +481,17 @@ export default function VercelSDRPresentation() {
                   <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-purple-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="flex items-center gap-6 mb-6">
                     <div className="w-20 h-20 bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center text-2xl font-bold shadow-lg text-white">
-                      JS
+                      AK
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold mb-1">Jane Smith</h3>
-                      <p className="text-gray-300 text-lg">VP Frontend Engineering</p>
+                      <h3 className="text-2xl font-bold mb-1">Akshay Kothari</h3>
+                      <p className="text-gray-300 text-lg">COO & Head of Product</p>
                       <div className="flex gap-3 mt-3">
                         <Badge variant="outline" className="text-xs border-blue-600 text-blue-400 bg-blue-500/10">
                           Economic Buyer
                         </Badge>
                         <Badge variant="outline" className="text-xs border-green-600 text-green-400 bg-green-500/10">
-                          Metrics
+                          Decision Maker
                         </Badge>
                       </div>
                     </div>
@@ -481,12 +503,10 @@ export default function VercelSDRPresentation() {
                         📧 <span>Email Draft:</span>
                       </div>
                       <div className="text-sm text-gray-300 mb-3">
-                        <strong>Subject:</strong> 220 million users deserve {"<"} 1s launch
+                        <strong>Subject:</strong> 30M users + 3.2s load times = retention risk?
                       </div>
                       <div className="text-sm text-gray-300 leading-relaxed">
-                        Hi Jane, saw Canva's latest design collaboration features. With 220M users, every second of load
-                        time impacts retention. Vercel helped Stripe ship their Black Friday site in 19 days. 14-day
-                        pilot to show ARR impact?
+                        Hi Akshay, congrats on Notion's enterprise momentum. Noticed your React app serves 30M+ users globally - every 100ms of latency costs ~2% engagement. Vercel helped Linear cut load times by 80%. Worth exploring a pilot to protect your retention metrics?
                       </div>
                     </div>
                   </div>
@@ -499,11 +519,11 @@ export default function VercelSDRPresentation() {
                   <div className="absolute inset-0 bg-gradient-to-br from-green-500/5 to-teal-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                   <div className="flex items-center gap-6 mb-6">
                     <div className="w-20 h-20 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center text-2xl font-bold shadow-lg text-white">
-                      CD
+                      MW
                     </div>
                     <div>
-                      <h3 className="text-2xl font-bold mb-1">Carlos Diaz</h3>
-                      <p className="text-gray-300 text-lg">Sr Frontend Engineer</p>
+                      <h3 className="text-2xl font-bold mb-1">Mamoon Wamiq</h3>
+                      <p className="text-gray-300 text-lg">Engineering Manager</p>
                       <div className="flex gap-3 mt-3">
                         <Badge variant="outline" className="text-xs border-purple-600 text-purple-400 bg-purple-500/10">
                           Champion
@@ -521,11 +541,10 @@ export default function VercelSDRPresentation() {
                         📧 <span>Email Draft:</span>
                       </div>
                       <div className="text-sm text-gray-300 mb-3">
-                        <strong>Subject:</strong> Shave minutes off your preview builds (demo inside)
+                        <strong>Subject:</strong> React SSR optimization for Notion's scale
                       </div>
                       <div className="text-sm text-gray-300 leading-relaxed">
-                        Hey Carlos, noticed you're hiring Next.js devs. Built a 38s preview demo showing how Vercel
-                        could cut your build times. Worth a 15-min chat about your current workflow pain points?
+                        Hey Mamoon, saw your React Conf talk on Notion's rendering optimizations. Built a 30-second demo showing how Vercel's Edge Runtime could eliminate your SSR bottlenecks. Worth 15 minutes to see the APAC latency improvements?
                       </div>
                     </div>
                   </div>
@@ -539,20 +558,23 @@ export default function VercelSDRPresentation() {
         <section className="snap-start h-screen flex items-center justify-center px-4 md:px-8 relative">
           <div className="absolute inset-0 bg-gradient-to-br from-purple-900/20 via-transparent to-cyan-900/20" />
           <div className="text-center relative z-10">
-            <h2 className="text-6xl md:text-8xl font-black mb-12 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
-              Ready to see it live?
+            <h2 className="text-6xl md:text-8xl font-black mb-8 bg-gradient-to-r from-white via-gray-200 to-gray-400 bg-clip-text text-transparent">
+              Let's talk pipeline.
             </h2>
+            <p className="text-2xl text-gray-300 mb-12 max-w-2xl mx-auto">
+              Ready to bring this energy to Vercel's enterprise motion?
+            </p>
             <div className="relative inline-block">
               <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-purple-500 blur-xl opacity-50 animate-pulse" />
               <Button
                 size="lg"
                 className="relative bg-gradient-to-r from-cyan-500 to-purple-600 hover:from-cyan-400 hover:to-purple-500 text-white text-xl px-12 py-6 rounded-full font-bold shadow-2xl hover:shadow-purple-500/50 transition-all duration-300 hover:scale-105"
                 onClick={() =>
-                  window.open("mailto:ricardo@example.com?subject=Vercel Pilot - 15min Discovery Call", "_blank")
+                  window.open("mailto:ricardo@example.com?subject=Vercel SDR Interview - Let's Discuss", "_blank")
                 }
               >
                 <Calendar className="w-6 h-6 mr-3" />
-                Book a 15-min discovery call
+                Questions about my approach?
               </Button>
             </div>
           </div>
